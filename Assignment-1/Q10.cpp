@@ -3,8 +3,7 @@ using namespace std;
 
 int maxWater(int arr[], int n) 
 {
-	int res = 0;
-	
+	int res = 0;	
 	for (int i = 1; i < n-1; i++) {
 		
 		int left = arr[i];
@@ -17,7 +16,6 @@ int maxWater(int arr[], int n)
 		
 	res = res + (min(left, right) - arr[i]); 
 	}
-
 	return res; 
 } 
 
