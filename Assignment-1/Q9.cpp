@@ -18,5 +18,6 @@ int main()
 	int n = sizeof(arr) / sizeof(arr[0]);
 	cout << " Number of inversions are "
 		<< getInvCount(arr, n);
+        
 	return 0;
 }
