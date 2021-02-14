@@ -45,6 +45,5 @@ int main()
 	int x = 8;
 	cout<<"First Occurrence = "<<first(arr, x, n)<<endl;
 	cout<<"Last Occurrence = "<<last(arr, x, n)<<endl;
-
 	return 0;
 }
