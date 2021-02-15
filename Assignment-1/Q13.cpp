@@ -1,4 +1,4 @@
-#include
+#include<bits/stdc++.h>
 using namespace std;
 
 struct HeapNode {
@@ -58,7 +58,6 @@ int main()
 		{ 25, 29, 37, 48 },
 		{ 32, 33, 39, 50 },
 	};
-	cout << "7th smallest element is "
-		<< kthSmallest(mat, 4, 7);
+	cout << "7th smallest element is "<< kthSmallest(mat, 4, 7);
 	return 0;
 }
