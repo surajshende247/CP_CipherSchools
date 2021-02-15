@@ -47,3 +47,5 @@ int main()
 	cout<<"Last Occurrence = "<<last(arr, x, n)<<endl;
 	return 0;
 }
+
+

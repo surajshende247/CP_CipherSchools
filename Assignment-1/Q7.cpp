@@ -20,3 +20,5 @@ int main()
 	alternateSort(arr, n); 
 	return 0; 
 } 
+
+

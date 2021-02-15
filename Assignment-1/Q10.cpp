@@ -26,3 +26,5 @@ int main()
 	cout << maxWater(arr, n); 	
 	return 0; 
 }
+
+
